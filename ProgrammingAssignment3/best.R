@@ -1,4 +1,4 @@
-Init <- function(fileStr, workDirStr="C:/Users/barberon-br/datasciencecoursera/datasciencecoursera/")
+Init <- function(fileStr, workDirStr="C:/Users/barberon-br/datasciencecoursera/ProgrammingAssignment3/")
 {
   setwd(workDirStr)
   retDfr <- read.csv(fileStr, colClasses = "character")
